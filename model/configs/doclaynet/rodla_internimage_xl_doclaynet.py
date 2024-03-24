@@ -5,7 +5,7 @@
 # --------------------------------------------------------
 _base_ = [
     '../_base_/datasets/doclaynet.py',
-    '../_base_/schedules/schedule_3x.py',
+    '../_base_/schedules/schedule_2x.py',
     '../_base_/default_runtime.py'
 ]
 pretrained = 'https://github.com/OpenGVLab/InternImage/releases/download/cls_model/internimage_xl_22k_192to384.pth'

@@ -30,7 +30,7 @@ We also provide a set of evaluation metrics to facilitate the comparison of diff
   - [ ] DocLayNet-P
   - [ ] M<sup>6</sup>Doc-P
 - [x] Perturbation Generation and Evaluation Code
-- [ ] RoDLA Model Checkpoints
+- [x] RoDLA Model Checkpoints
 - [x] RoDLA Model Training Code
 - [x] RoDLA Model Evaluation Code
 
@@ -126,15 +126,15 @@ After dataset preparation, the perturbed dataset structure would be:
 
 ### Download the RoDLA model checkpoints
 
-- [Checkpoints for PubLayNet]()
-- [Checkpoints for DocLayNet]()
-- [Checkpoints for M<sup>6</sup>Doc]()
+- [Checkpoints for PubLayNet](https://drive.google.com/file/d/1I2CafA-wRKAWCqFgXPgtoVx3OQcRWEjp/view?usp=sharing)
+- [Checkpoints for DocLayNet](https://drive.google.com/file/d/18U6agKsUwU4I3__g8OXUwMghK41esS8h/view?usp=sharing)
+- [Checkpoints for M<sup>6</sup>Doc](https://drive.google.com/file/d/1xPjfQej20Lpdot-D_jHxp-d3Iz92-g9g/view?usp=sharing)
 
 ### Evaluate the RoDLA model
 ```
 cd ./model
-python -u test.py configs/publaynet/rodla_internimage_xl_2x_publaynet.py \
-  checkpoint_dir/rodla_internimage_xl_2x_publaynet.pth \
+python -u test.py configs/publaynet/rodla_internimage_xl_publaynet.py \
+  checkpoint_dir/rodla_internimage_xl_publaynet.pth \
   --work-dir result/rodla_internimage_publaynet/Speckle_1 \
   --eval bbox \
   --cfg-options data.test.ann_file='PubLayNet-P/Speckle/Speckle_1/val.json' \
