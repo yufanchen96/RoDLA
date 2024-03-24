@@ -131,8 +131,8 @@ python -u test.py configs/publaynet/rodla_internimage_xl_2x_publaynet.py \
   checkpoint_dir/rodla_internimage_xl_2x_publaynet.pth \
   --work-dir result/rodla_internimage_publaynet/Speckle_1 \
   --eval bbox \
-  --cfg-options data.test.ann_file='PubLayNet-P/Speckle/Speckle/val.json' \
-                data.test.img_prefix='PubLayNet-P/Speckle/Speckle/val/'
+  --cfg-options data.test.ann_file='PubLayNet-P/Speckle/Speckle_1/val.json' \
+                data.test.img_prefix='PubLayNet-P/Speckle/Speckle_1/val/'
 ```
 
 ## 🌳 Citation
