@@ -31,7 +31,7 @@ We also provide a set of evaluation metrics to facilitate the comparison of diff
   - [ ] M<sup>6</sup>Doc-P
 - [x] Perturbation Generation and Evaluation Code
 - [ ] RoDLA Model Checkpoints
-- [ ] RoDLA Model Training Code
+- [x] RoDLA Model Training Code
 - [x] RoDLA Model Evaluation Code
 
 ## 📦 Installation
@@ -124,6 +124,12 @@ After dataset preparation, the perturbed dataset structure would be:
 
 ## 🚀 Quick Start
 
+### Download the RoDLA model checkpoints
+
+- [Checkpoints for PubLayNet]()
+- [Checkpoints for DocLayNet]()
+- [Checkpoints for M<sup>6</sup>Doc]()
+
 ### Evaluate the RoDLA model
 ```
 cd ./model
@@ -134,6 +140,13 @@ python -u test.py configs/publaynet/rodla_internimage_xl_2x_publaynet.py \
   --cfg-options data.test.ann_file='PubLayNet-P/Speckle/Speckle_1/val.json' \
                 data.test.img_prefix='PubLayNet-P/Speckle/Speckle_1/val/'
 ```
+### Training the RoDLA model
+- Modify the configuration file under `configs/_base_/datasets` to specify the dataset path
+- Run the following command to train the model
+```
+sh dist_train.sh configs/publaynet/rodla_internimage_xl_2x_publaynet.py 4
+```
+
 
 ## 🌳 Citation
 If you find this code useful for your research, please consider citing:
