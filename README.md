@@ -142,7 +142,7 @@ python -u test.py configs/publaynet/rodla_internimage_xl_2x_publaynet.py \
 ```
 ### Training the RoDLA model
 - Modify the configuration file under `configs/_base_/datasets` to specify the dataset path
-- Run the following command to train the model
+- Run the following command to train the model with 4 GPUs
 ```
 sh dist_train.sh configs/publaynet/rodla_internimage_xl_2x_publaynet.py 4
 ```
