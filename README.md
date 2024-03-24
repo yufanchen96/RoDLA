@@ -64,9 +64,9 @@ pip install opencv-python termcolor yacs pyyaml scipy
 
 - Install ocrodeg Dependencies
 ```
+git clone https://github.com/NVlabs/ocrodeg.git
 cd ./ocrodeg
 pip install -e .
-cd ..
 ```
 
 - Compile CUDA operators
@@ -74,7 +74,6 @@ cd ..
 cd ./model/ops_dcnv3
 sh ./make.sh
 python test.py
-cd ../..
 ```
 - You can also install the operator using .whl files
 
