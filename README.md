@@ -151,12 +151,10 @@ sh dist_train.sh configs/publaynet/rodla_internimage_xl_2x_publaynet.py 4
 ## 🌳 Citation
 If you find this code useful for your research, please consider citing:
 ```
-@misc{chen2024rodla,
+@inproceedings{chen2024rodla,
       title={RoDLA: Benchmarking the Robustness of Document Layout Analysis Models}, 
       author={Yufan Chen and Jiaming Zhang and Kunyu Peng and Junwei Zheng and Ruiping Liu and Philip Torr and Rainer Stiefelhagen},
-      year={2024},
-      eprint={2403.14442},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+      booktitle={CVPR},
+      year={2024}
 }
 ```
