@@ -27,8 +27,8 @@ We also provide a set of evaluation metrics to facilitate the comparison of diff
 ## 📝 Catalog
 - [x] Perturbation Benchmark Dataset
   - [x] PubLayNet-P
-  - [ ] DocLayNet-P
-  - [ ] M<sup>6</sup>Doc-P
+  - [x] DocLayNet-P
+  - [x] M<sup>6</sup>Doc-P
 - [x] Perturbation Generation and Evaluation Code
 - [x] RoDLA Model Checkpoints
 - [x] RoDLA Model Training Code
@@ -84,7 +84,7 @@ python test.py
 ### RoDLA Benchmark Dataset Preparation
 Download the RoDLA dataset from Google Driver to the desired root directory.
   - [PubLayNet-P](https://drive.google.com/file/d/1bfjaxb5fAjU7sFqtM3GfNYm0ynrB5Vwo/view?usp=drive_link)
-  - [DocLayNet-P]()
+  - [DocLayNet-P](https://drive.google.com/file/d/1LhgHb_omrttZn6mnvKXTQ34jjfm8xklU/view?usp=drive_link)
   - [M<sup>6</sup>Doc-P](https://drive.google.com/file/d/1RxtEaEIbK21qjDieGJcJc2MxYJQfwX9n/view?usp=drive_link)
 
 ### Self-generated Perturbation Dataset Preparation
