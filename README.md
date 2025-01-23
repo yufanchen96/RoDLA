@@ -85,7 +85,7 @@ python test.py
 Download the RoDLA dataset from Google Driver to the desired root directory.
   - [PubLayNet-P](https://drive.google.com/file/d/1bfjaxb5fAjU7sFqtM3GfNYm0ynrB5Vwo/view?usp=drive_link)
   - [DocLayNet-P]()
-  - [M<sup>6</sup>Doc-P]()
+  - [M<sup>6</sup>Doc-P](https://drive.google.com/file/d/1RxtEaEIbK21qjDieGJcJc2MxYJQfwX9n/view?usp=drive_link)
 
 ### Self-generated Perturbation Dataset Preparation
 Prepare the dataset as follows by yourself:
