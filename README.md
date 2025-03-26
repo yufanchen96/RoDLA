@@ -10,7 +10,6 @@
     <img src="https://img.shields.io/badge/Framework-PyTorch%201.10.2-orange" /></a>
     <a href="https://github.com/yufanchen96/RoDLA/blob/main/LICENSE">
     <img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" /></a>
-    <img alt="visits" src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fyufanchen96%2FRoDLA&count_bg=%23A53DC8&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Visits&edge_flat=false">
 </p>
 
 ## 🏡 Project Homepage
